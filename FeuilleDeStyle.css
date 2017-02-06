@@ -1,0 +1,9 @@
+.lisseré {
+font-family: Arial,12,bold;
+background-color : #969696;
+background-position : absolute;
+}
+
+.lisseré span{
+/* style = inline; */
+}
