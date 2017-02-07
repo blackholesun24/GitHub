@@ -1,212 +1,70 @@
+.header {
 
-body{
-    background-color:white;
-    background-image:url(https://fgskt.files.wordpress.com/2012/07/mlfoto-3-de-5.jpg);
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-    /*  margin:0;*/
-    background-attachment:fixed;
+	width: 100%;
+	height: 56px;
+	background-color : #969696;
+	background-position : absolute;
+
 }
 
-.cadre_titre{
+.header ul{
 	
-	padding:1%;
-    margin-top:3%;
-    margin-bottom:3%;
-    margin-left:10%;
-    margin-right:10%;
-    border-radius:50px;	
-	background-image:url(backgroundblur.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	border: 5px black solid;
-}
+	display: inline-block;
+	float: right;
 
-.cadre_titre h1{
-	text-align : center ; 
-	font-size: 350%;
-    color: #FFA500;
 }
-
-.cadre_titre p{
-	color :white;
-	text-align : center;
-}
-
-.cadre{
 	
-	height: 45%;
-	padding: 3%;
-    margin-top:3%;
-    margin-bottom:3%;
-    margin-left:10%;
-    margin-right:10%;
-    border-radius:50px;	
-	background-image:url(backgroundblur.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	border: 5px black solid;
-    
-}   
-
-.cadre h1{
-	text-align : center;
-    font-size: 250%;
-    color: #FFA500;
-    margin : auto;
-    padding-bottom: 4%;
-}
-
-.cadre .contenu1{
-    float : left;
-    color:black;
-    height : 20%;
-	width : 30%;
-    font-size : 150%;
-	color :white;
-    margin:auto;
-    padding-left: 5%;
-	padding-bottom : 10%;
-	display:inline;
-	text-align: justify;
-}
-
-.cadre .miniature1{
+.header .menu-right {
 	
-    height:75%;
-    width:50%;
-    padding-right:10%;
-    margin : auto;
-    padding-bottom:10%;
-    float:right;
-}   
+	padding-top: 3px;
+	list-style:none;	
+	
+}
+#imgbandeau{
 
-.cadre .contenu2{
-    float : right;
-    color:black;
-    height : 20%;
-    width : 30%;
-    font-size : 150%;
+	height:280px;	
+	width:80%;
+	text-align:center;
+	
+}
+input[type=text] {
+	
 	color:white;
-    margin:auto;
-    padding-right: 5%;
-	padding-bottom : 10%;
-	display:inline;
-	text-align: justify;
-	}
-
-.cadre .miniature2{
-    height:75%;
-    width:50%;
-	padding-left:5%;
-    margin : auto;
-    padding-bottom:10%;
-    float:left;
-}   
-
-/* menu de navigation */
-#menu-deroulant, #menu-deroulant ul {
-    padding: 0;
-    padding-top: 10px;
-    margin: 0;
-    list-style: none;
-}
-#menu-deroulant {
-    text-align: center;
-	margin-top: -90px;
-}
-/* boutons */
-#menu-deroulant li {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#menu-deroulant li:hover {
-    background-color: #66858D;
-}
-/* Sous-menus */
-#menu-deroulant ul li {
-    display: block;
-    padding-left: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-align: left;
-    /* empêche la sélection */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-/* texte dans les boutons */
-.amenu {
-    padding-top: 5px;
-}
-#menu-deroulant a {
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-/* Sous-menus */
-#menu-deroulant ul {
-    position: absolute;
-    left: -999em;
-    text-align: left;
-    transform: translateX(+20px);
-	transform: translateY(+25px);
-    padding-top: 0px;
-    margin-top: 6px;
-	font-size: 25px;
 	
-    background-color:#C0BFA9;
-    border-radius: 1px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
-}
-#menu-deroulant li:hover ul {
-    left: auto;
-}
-.menu {
-    border: 1px black solid;
-    border-radius: 10px;
-    background-color: #93A299;
-	padding-top: 15px;
-	width: 150px;
-    height: 50px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, .7);
-    cursor: default;
-}
-.menu b {
-    color: white;
-    /* empêche la sélection */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-.content {
-    margin-top: 20px;
-}
-
-.txtfoot{
-	position : absolute;
-	text-align : center;
-	font-family : "Times New Roman" , black , 14px;
-
-	padding-left: 50%;
-	padding-bottom : 2%;
+	text-align:right;
+	width: 20%;
+	height: 70px;
+    padding: 12px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+	position:absolute;
 	
+	background-color: #80daeb;
+	background-image: url('search_icon.png');
+    background-position: 1px 1px; 
+	background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.header .menu-right a{
+
+	text-align:center;
+	text-decoration:none;
+
+	margin: 5px;
+	padding: 5px;
+	
+	padding-right: 8px;
+	padding-left: 8px;
+	background-color: #cccccc;
+	font-family: Arial,16px,bold;
+	border-style: solid;
+	border-width: 2px;
 }
 
-/* banniere */
-#ban {
-	width: 1920px;
-	height: 350px;
-	display: block;
-	border: 0;
-	margin-top : -10px;
-	margin-left: -10px;
+#bottom-header{
+	
+	width: 100%;
+	height: 56px;
+	background-color : #969696;
+	background-position : absolute;
 }
