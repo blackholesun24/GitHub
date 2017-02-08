@@ -21,21 +21,28 @@
 	
 }
 #imgbandeau{
-
-	height:280px;	
-	width:80%;
-	text-align:center;
+ 
+	border-style: solid;
+	background-size: 100% 100% ;
+	height:320px;	
+	width:80%;	
+	position : relative;
+	background-image:url("http://www.tao-restaurant.fr/wp-content/uploads/2013/03/plage20111102.jpg");
+	background-repeat: no-repeat;
+	background-position:200px;
+	/* background-attachment:fixed; */
 	
 }
 input[type=text] {
 	
 	color:white;
 	
+	
 	text-align:right;
 	width: 20%;
 	height: 70px;
     padding: 12px ;
-    margin: 8px 0;
+    margin: 100px 0;
     box-sizing: border-box;
 	position:absolute;
 	
@@ -45,6 +52,24 @@ input[type=text] {
 	background-repeat: no-repeat;
     padding-left: 40px;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 18px;
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 18px;
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 18px;
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 18px;
+  color: black;
+}
+
 .header .menu-right a{
 
 	text-align:center;
@@ -67,4 +92,5 @@ input[type=text] {
 	height: 56px;
 	background-color : #969696;
 	background-position : absolute;
+	margin-top: -16px;
 }
